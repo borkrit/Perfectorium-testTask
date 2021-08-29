@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <section class="left-side " id="sidebar">
+      
+      <header>
+        <button  id="btnMenu" class="btnMenu"> <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+        </svg></button>
+      </header>
+      <ul id="menu" class='menu'>
+        <li><a  href="#home">
+          <svg style="width:30px;height:30px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
+        </svg> 
+        <p class="name-link">Account Dashboard</p> </a></li>
+        <li><a  href="#news">
+          <svg style="width:30px;height:30px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3" />
+          </svg>
+          <p class="name-link">Account History</p> </a></li>
+        <li><a  class="active" href="#contact">
+          <svg style="width:30px;height:30px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M7,15H9C9,16.08 10.37,17 12,17C13.63,17 15,16.08 15,15C15,13.9 13.96,13.5 11.76,12.97C9.64,12.44 7,11.78 7,9C7,7.21 8.47,5.69 10.5,5.18V3H13.5V5.18C15.53,5.69 17,7.21 17,9H15C15,7.92 13.63,7 12,7C10.37,7 9,7.92 9,9C9,10.1 10.04,10.5 12.24,11.03C14.36,11.56 17,12.22 17,15C17,16.79 15.53,18.31 13.5,18.82V21H10.5V18.82C8.47,18.31 7,16.79 7,15Z" />
+          </svg>
+          <p class="name-link">Deposits</p></a></li>
+        <li><a href="#about">
+          <svg style="width:30px;height:30px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M11.5,1L2,6V8H21V6M16,10V17H19V10M2,22H21V19H2M10,10V17H13V10M4,10V17H7V10H4Z" />
+          </svg>
+          <p class="name-link">Withdrawals</p></a></li>
+      </ul>
+      
+    </section>
+    <section class="right-side">
+        <header>
+          <div class="dropdown">
+            <button class="dropbtn">Kira Huston <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+            </svg> </button>
+            <div class="dropdown-content">
+              <a href="#">Profile</a>
+              <a href="#">Sign out</a>
+              
+            </div>
+          </div>
+        </header>
+        <main>
+            
+            <div class="container-block">
+              <h1>DEPOSITS</h1>
+              <div class="check-block">
+                <div class="tabs">
+                  <button class="tabs-btn tabs-open" >CHECK</button>
+                  <button class="tabs-btn" >WIRE TRANSFER</button>
+                </div>
+                <div  class="content">
+                  <div class="container-input">
+                    <label class="large-label" for="Amount">
+                      Amount
+                      <input id="Amount" name="Amount" type="text" placeholder="1000">
+                    </label> 
+                    <label class="large-label" for="email">
+                      E-mail
+                      <input id="email" name="email" type="email" placeholder="Email">
+                    </label> 
+                  </div>
+                 
+                  <div class="radio">
+                    <input id="radio-1" name="radio" type="radio" checked>
+                    <label for="radio-1" class="radio-label">Individual Account </label>
+                  </div>
+                
+                  <div class="radio">
+                    <input id="radio-2" name="radio" type="radio">
+                    <label  for="radio-2" class="radio-label">Joint Account </label>
+                  </div>
+  
+                  <div class="btn-next"><a href="#">Next</a></div> 
+                </div> 
+                 
+              </div>
+              <div class="check-block">
+                <table class="table table-sm">
+                  <thead>
+                    <tr>
+                      
+                      <th scope="col">Date</th>
+                      <th scope="col">Type</th>
+                      <th scope="col">Amount</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                   
+                    <tr>
+                      <td>10/10/2019</td>
+                      <td>Lorem ipsum dolor </td>
+                      <td>$100</td>
+                    </tr>
+                    <tr>
+                      <td>10/10/2019</td>
+                      <td>Lorem ipsum dolor </td>
+                      <td>$100</td>
+                    </tr>
+                    <tr>
+                      <td>10/10/2019</td>
+                      <td>Lorem ipsum dolor </td>
+                      <td>$100</td>
+                    </tr>
+                    <tr>
+                      <td>10/10/2019</td>
+                      <td>Lorem ipsum dolor </td>
+                      <td>$100</td>
+                    </tr>
+                    <tr>
+                      <td>10/10/2019</td>
+                      <td>Lorem ipsum dolor </td>
+                      <td>$100</td>
+                    </tr>
+                    <tr>
+                      <td>10/10/2019</td>
+                      <td>Lorem ipsum dolor </td>
+                      <td>$100</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <nav >
+                  <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                    </svg></a></li>
+                    <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                    
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    <li class="page-item"><a class="page-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg></a></li>
+
+                    
+                    <li class="page-item"><a class="page-link" href="#">Last</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            
+        </main>
+    </section>
+    
+    <script>
+      let btnMenu = document.getElementById('btnMenu');
+      let sidebar = document.getElementById('sidebar');
+      let menu = document.getElementById('menu');
+      let nameLink = document.getElementsByClassName('name-link');
+
+        btnMenu.addEventListener('click',function(){
+          if(sidebar.style.width != '70px'){
+          btnMenu.style.rotate = '180deg';
+          sidebar.style.width= '70px';
+          menu.style.width = '70px';
+          for (let i =0; i<nameLink.length;i++){
+            nameLink[i].style.display='none';
+          }
+          } else{
+            btnMenu.style.rotate = '';
+            sidebar.style.width= '';
+            menu.style.width = '';
+            for (let i =0; i<nameLink.length;i++){
+              nameLink[i].style.display='';
+            }
+      }
+        });
+        
+
+        // toggle tabs
+
+        // let tabs = document.getElementsByClassName('tabs-btn');
+        // for(let i =0; i<tabs.length; i++){
+        //   tabs[i].addEventListener('click',function(){
+        //     tabs[i].classList.toggle('tabs-open')
+        //     tabs[i-1].classList.toggle('tabs-open')})
+        // }
+
+      
+    </script>
+  </body>
+</html>
